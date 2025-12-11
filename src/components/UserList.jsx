@@ -31,6 +31,9 @@ const UserList = () => {
       addUser(formData);
     }
 
+
+
+    
     setFormData({ name: "", email: "", age: "" });
   };
 
