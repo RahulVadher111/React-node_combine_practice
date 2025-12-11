@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Piyush D Vadher",
+      "email": "piyush.vadher78@example.com",
+      "age": "24",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Jaya Purohit",
+      "email": "jaya.purohit@example.com",
+      "age": 24
+    },
+    {
+      "id": "5",
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "age": "21"
+    },
+    {
+      "id": "6",
+      "name": "kushal",
+      "email": "kushal@gmail.com",
+      "age": "22"
+    },
+    {
+      "name": "pankj",
+      "email": "pnkaj@gmail.com",
+      "age": "15",
+      "id": "7"
+    },
+    
+    {
+      "name": "jaydip_V",
+      "email": "jaydip@gmail.com",
+      "age": "22",
+      "id": "21"
+    }
+  ]
+}
