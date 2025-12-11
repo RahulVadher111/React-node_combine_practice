@@ -31,9 +31,6 @@ const UserList = () => {
       addUser(formData);
     }
 
-
-
-    
     setFormData({ name: "", email: "", age: "" });
   };
 
@@ -47,32 +44,37 @@ const UserList = () => {
   };
 
   return (
-    <div style={{ width: "80%", margin: "50px auto",paddingTop:"50px" }}>
+    <div style={{ width: "80%", margin: "50px auto", paddingTop: "50px" }}>
       <h1>User List</h1>
 
       <form onSubmit={handleSubmit} style={{ marginBottom: "20px" }}>
-        <input style={{padding:"10px"}}
+        <input
+          style={{ padding: "10px" }}
           type="text"
           name="name"
           placeholder="Enter name"
           value={formData.name}
           onChange={handleChange}
         />
-        <input style={{padding:"10px"}}
+        <input
+          style={{ padding: "10px" }}
           type="email"
           name="email"
           placeholder="Enter email"
           value={formData.email}
           onChange={handleChange}
         />
-        <input style={{padding:"10px"}}
+        <input
+          style={{ padding: "10px" }}
           type="number"
           name="age"
           placeholder="Enter age"
           value={formData.age}
           onChange={handleChange}
         />
-        <button type="submit" style={{padding:"10px"}}>{editId ? "Update User" : "Add User"}</button>
+        <button type="submit" style={{ padding: "10px" }}>
+          {editId ? "Update User" : "Add User"}
+        </button>
       </form>
 
       {users.length === 0 ? (
